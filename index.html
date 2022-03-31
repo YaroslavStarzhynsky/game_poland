@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./additions/css/style.css">
+    <script>
+        function sobaka(event){
+            var x = event.pageX-958;
+            var y = event.pageY-474;
+            var result=0;
+            var putin_health=666;
+            
+            if((x*x + y*y) <= 40*30){ //red
+                alert("Super Mega!")
+                putin_health-=50
+            }
+            else if ((x*x + y*y) <=170*140){ //blue and green
+                alert("i still alive. Continue to shoot. +30 to score")
+                putin_health-=30
+            }
+            else if ((x*x + y*y) <=300*260){ //blue and green
+                alert("i still alive. Continue to shoot. +20 to score")
+                putin_health -= 20
+            }
+            document.getElementById("score").innerHTML = putin_health;
+        }
+    </script>
+</head>
+<body>
+    <header>
+     <div class="header_txt">
+         <p class="header_info" >F##CK HIM!</p>
+     </div>
+    </header>
+    <div class="add">
+            <img src="./additions/images/putin.png" onclick="sobaka(event)"alt="">
+    </div>
+    <p class="putin_1">Your score:</p>
+    <p class="putin" id="score"> </p>
+    <div class="awp">
+        <img class="awp_img" src="./additions/images/AWP.webp" alt="">
+        <p class = "awp_txt">
+            AWP = 6666$ 
+            damage = 100hp
+        </p>
+    </div>
+
+
+    <div class="ak47">
+        <img class="awp_img" src="./additions/images/AK-47.webp" alt="">
+        <p class = "ak47_txt">
+            AWP = 3000$ 
+            damage = 60hp
+        </p>
+    </div>
+
+    <div class="ssg08">
+        <img class="awp_img" src="./additions/images/SSG_08.webp" alt="">
+        <p class = "ssg08_txt">
+            SSG-08 = 2000$ 
+            damage = 40hp
+        </p>
+    </div>
+
+    <div class="deagle">
+        <img class="awp_img" src="./additions/images/Desert_Eagle.webp" alt="">
+        <p class = "deagle_txt">
+            Desert Eagle = 700$ 
+            damage = 20hp
+        </p>
+    </div>
+</body>
+</html>

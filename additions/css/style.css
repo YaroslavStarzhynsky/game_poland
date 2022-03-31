@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Comfortaa', cursive;
+    background:url(/additions/images/kreml.webp) no-repeat 1920px 980px;
+    background-repeat: no-repeat ;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover ;
+    background-size: cover;
+    
+}
+header{
+    height: 20vh;
+    width: auto;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(204,179,214,1) 70%, rgba(166,184,227,1) 77%, rgba(148,187,233,1) 100%);
+}
+.header_txt{
+    font-size: 4em;
+    text-align: center;
+    justify-content: center;
+    color:#d7e6f7;
+
+}
+.header_info{
+    justify-content: center;
+    padding-top: 60px;
+}
+.add{
+    justify-content: center;
+    float: inherit;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+    
+}
+img{
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+    -webkit-box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+-moz-box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+}
+img:hover{
+    -webkit-box-shadow: 1px 1px 24px 0px rgba(66, 68, 90, 1);
+-moz-box-shadow: 1px 1px 24px 0px rgba(66, 68, 90, 1);
+box-shadow: 1px 1px 24px 0px rgba(66, 68, 90, 1);
+transform:scale(1.15);
+transition: .7s;
+}
+.putin_1{
+    text-align: center;
+    color: aliceblue;
+    font-size: 2em;
+    justify-content: center;
+    padding-top: 75px;
+}
+.putin{
+    text-align: center;
+    color: rgb(223, 90, 13);
+    font-size: 3em;
+    justify-content: center;
+    padding-top: 10px;
+}
+.awp_img{ 
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+
+}
+.awp_img:hover{
+transform:scale(1.15);
+transition: .7s;
+}
+.awp{
+    position: absolute;
+    top: 220px;
+    left: 150px;
+}
+.awp_txt{
+    padding-top: 40px;
+    text-align: center;
+    font-size: 1.4em;
+    color: rgb(43, 255, 255);
+}
+
+.ak47{
+    position: absolute;
+    top: 570px;
+    left: 150px;
+}
+.ak47_txt{
+    padding-top: 40px;
+    text-align: center;
+    font-size: 1.4em;
+    color: rgb(43, 255, 255);
+}
+
+.ssg08{
+    position: absolute;
+    top: 220px;
+    right: 150px;
+}
+.ssg08_txt{
+    padding-top: 40px;
+    text-align: center;
+    font-size: 1.4em;
+    color: rgb(43, 255, 255);
+}
+
+.deagle{
+    position: absolute;
+    top: 570px;
+    right: 100px;
+}
+.deagle_txt{
+    padding-top: 40px;
+    text-align: center;
+    font-size: 1.4em;
+    color: rgb(43, 255, 255);
+}
